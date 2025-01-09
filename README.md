@@ -1,0 +1,1 @@
+This repository demonstrates a common ActionScript bug related to pass-by-value semantics. The `updateScore` function attempts to modify a score, but due to pass-by-value, only a local copy is changed.  The solution shows how to correctly update the score by passing an object.
